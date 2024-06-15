@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d0505;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #formulario {
+    background-color: #442929;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(247, 244, 244, 0.1);
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  input[type="submit"]{
+    background-color: #442929;
+    color: white;
+  }
+  
+  #resultado {
+    background-color: #442929;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 10px;
+    align-items: center;
+
+  }
